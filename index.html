@@ -5,14 +5,18 @@
     <title>Memory Gane</title>
     <script defer src="https://kit.fontawesome.com/dca5919471.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
     <header>
         <div class="name">
             <h3>Hello <span>Abdulaziz</span></h3>
         </div>
         <div class="tries">
-            <h3>Wrog Tries <span>0</span></h3>
+            <h3>Wrog Tries <span>3</span></h3>
         </div>
     </header>    
     <main>
@@ -24,7 +28,7 @@
                 
             </div>
         </div>
-        <div class="box" data-techno="css">
+        <div class="box" data-techno="html">
             <div class="face back">
                 <i class="fa-brands fa-html5 icon"></i>
             </div>
@@ -144,6 +148,26 @@
                 
             </div>
         </div>
+
+        <div class="box" data-techno="islam">
+            <div class="face back">
+                <i class="fa-solid fa-star-and-crescent icon"></i>
+            </div>
+            <div class="face front">
+                
+            </div>
+        </div>
+        <div class="box" data-techno="islam">
+            <div class="face back">
+                <i class="fa-solid fa-star-and-crescent icon"></i>
+            </div>
+            <div class="face front">
+                
+            </div>
+        </div>
     </main>
+
+    <audio id="success" src="Audio/success.mp4" preload="auto"></audio>
+    <audio id="wrong" src="Audio/wrong.mp4" preload="auto"></audio>
 </body>
 </html>
